@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <head>
+	<title> Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	<link href="https://fonts.googleapis.com/css?family=Modak|Righteous|Roboto" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+    	<h1 id="title">SURVEY </h1>
+    	<h3 id="subtitle">Form</h3>
+    </header>
+
+    <main>
+    	<p id="description">Let us know about your life style .</p>
+
+    	<form id="survey-form" method="get" action=""> 
+
+    		<div>
+    			<label id="name-label" for="name">Name: </label>
+    			<input type="text" id="name" name="name" placeholder="Enter your name." autofocus required >
+    		</div>
+
+    		<div>
+    			<label id="email-label" for="email">Email: </label>
+    			<input type="email" id="email" name="email" placeholder="Enter your email." autofocus required >
+    		</div>
+
+    		<div>
+    			<label id="number-label" for="number">Mobile: </label>
+    			<input type="tel" id="number" name="number" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9{3}-[0-9]{4}" autofocus required >
+    		</div>
+
+    	</form>
+    </main>
+
+  </body>
+</html>
